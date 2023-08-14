@@ -17,7 +17,7 @@ const computerScissors = document.getElementById('computerScissors');
 const computerLizard = document.getElementById('computerLizard');
 const computerSpock = document.getElementById('computerSpock');
 
-const allGameIcons = querySelectorAll('.far');
+const allGameIcons = document.querySelectorAll('.far');
 
 const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
@@ -26,4 +26,33 @@ const choices = {
   lizard: { name: 'Lizard', defeats: ['paper', 'spock'] },
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
+
+//Passing player selection value and styling icons
+function select (playerChoice) {
+  // Add 'selected' styling & playerChoice
+  switch (playerChoice) {
+    case 'rock':
+      playerRock.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Rock';
+      break;
+    case 'paper':
+      playerPaper.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Paper';
+      break; 
+    case 'Scissors':
+      playerScissors.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Scissors';
+      break; 
+    case 'Lizard':
+      playerLizard.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Lizard';
+      break;
+    case 'Spock':
+      playerSpock.classList.add('selected');
+      playerChoiceEl.textContent = ' --- Spock';
+      break; 
+    default:break;  
+    
+  }
+}
 
