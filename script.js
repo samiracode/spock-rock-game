@@ -48,34 +48,35 @@ function computerRandomChoice() {
   } else if ( computerChoiceNumber <= 0.8) {
     computerChoice = 'lizard';
   } else {
-    'spock';
+    computerChoice = 'spock';
   }
 }
 
 // Add 'selected' styling & computerChoice
-function displayComputerChoice (computerChoice) {
+function displayComputerChoice () {
  switch (computerChoice) {
-   case 'rock':
+    case 'rock':
      computerRock.classList.add('selected');
      computerChoiceEl.textContent = ' --- Rock';
      break;
-   case 'paper':
+    case 'paper':
      computerPaper.classList.add('selected');
      computerChoiceEl.textContent = ' --- Paper';
      break; 
-   case 'scissors':
+    case 'scissors':
      computerScissors.classList.add('selected');
      computerChoiceEl.textContent = ' --- Scissors';
      break; 
-   case 'lizard':
+    case 'lizard':
      computerLizard.classList.add('selected');
      computerChoiceEl.textContent = ' --- Lizard';
      break;
-   case 'spock':
+    case 'spock':
      computerSpock.classList.add('selected');
      computerChoiceEl.textContent = ' --- Spock';
      break; 
-   default:break;  
+    default:
+     break;  
  }
 }
 
