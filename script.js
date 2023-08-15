@@ -154,5 +154,6 @@ function select (playerChoice) {
 // On startup, set initial values
 resetAll();
 
+//Confetti from confettis js file
 
 
