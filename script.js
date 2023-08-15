@@ -1,3 +1,4 @@
+import { startConfetti, stopConfetti, removeConfetti } from "./confetti";
 
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
@@ -157,7 +158,9 @@ function select (playerChoice) {
 // On startup, set initial values
 resetAll();
 
-//Confetti from confettis js file
+
+
+
 
 
 
