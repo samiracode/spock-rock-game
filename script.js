@@ -1,4 +1,3 @@
-import { startConfetti, stopConfetti, removeConfetti } from "./confetti";
 
 const playerScoreEl = document.getElementById('playerScore');
 const playerChoiceEl = document.getElementById('playerChoice');
@@ -113,7 +112,6 @@ function updateScore (playerChoice) {
       computerScoreNumber++;
       computerScoreEl.textContent = computerScoreNumber;
     }
-
   }
 }
 
@@ -157,6 +155,7 @@ function select (playerChoice) {
 
 // On startup, set initial values
 resetAll();
+
 
 
 
