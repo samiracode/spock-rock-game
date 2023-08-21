@@ -17,4 +17,7 @@ In order to play we need to know the following rulls:
 
     
   Many rulles to remember? No worries, they are all coded in the game and all you need to do is playing it!
+  ## What techs are used
+  Vanilla JavaScript is wonderfull when it comes to write a game with a logic and interactive UI elements.
+  For showing the confetti effect after player's win, I used the CSSscript file that you can check it [here](https://www.cssscript.com/confetti-falling-animation/)
 
