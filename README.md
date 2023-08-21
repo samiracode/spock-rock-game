@@ -17,7 +17,7 @@ In order to play we need to know the following rulls:
 * Rock crushes scissors
 
     
-  Many rulles to remember? No worries, they are all coded in the game and all you need to do is playing it [HERE](https://samiracode.github.io/spock-rock-game/)
+  Many rulles to remember? No worries, they are all coded in the game and all you need to do is playing it [HERE](https://samiracode.github.io/spock-rock-game/).
   ## What techs are used
   Vanilla JavaScript is a perfect program when it comes to write a game with a complicated logic and interactive UI elements.
   For showing the confetti effect after player's win, I used the CSSscript file that you can check it [here](https://www.cssscript.com/confetti-falling-animation/).
