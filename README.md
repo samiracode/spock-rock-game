@@ -23,7 +23,7 @@ In order to play we need to know the following rulls:
   For showing the confetti effect after player's win, I used the CSSscript file that you can check it [here](https://www.cssscript.com/confetti-falling-animation/).
 
   ## Future improvemetns
-  At this moment there is no adding up scores for each player, it means there is only one round for win or lose. I am planing to add a 5 round of the game so each player would lose or win with higher score at the end of the 5th round.
+  At this moment there is no limit for adding up scores for each player, it means the game can go on until player pushes the reset button. I am planing to add a 5 round of the game so each player would lose or win with higher score at the end of the 5th round.
 
     
  +Note: Did you enjoy the game? Please go ahead and give this repository a star for supporting it. Thanks!      
