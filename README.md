@@ -3,9 +3,9 @@ A developed rock paper scissors game by adding two more icons as "Lizard" and "S
 
 
 ## How to play  
-In order to play we need to know the following rulls:  
-* Scissors cuts Paper
-* Paper covers Rock
+In order to play we need to know the following rulls:    
++ Scissors cuts Paper
++ Paper covers Rock
 * Rock crushes Lizard
 * Lizard poisons Spock
 * Spock mashes Scissors
