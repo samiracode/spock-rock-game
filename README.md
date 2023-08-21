@@ -14,5 +14,7 @@ In order to play we need to know the following rulls:
 * Paper disproves Spock
 * Spock vaporizes Rock
 * Rock crushes scissors
+
+    
   Many rulles to remember? No worries, they are all coded in the game and all you need to do is playing it!
 
